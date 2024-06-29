@@ -1,0 +1,27 @@
+[
+    { 
+        "id": 1,
+        "nomPrenom": "G. Souvenir B. MEGNIGBETO",
+        "statut": "Volontaire Gen-DT",
+        "photo": "images/avatar3.jpg",
+        "biographie":"Diplômé en technique supérieur de la statistique, j'interviens depuis 2013 sur des questions liées à la collecte, le traitement et l'analyse statistique pour le compte de différents service public, laboratoires de recherche et cabinet d'étude. J'ai rejoint Génération Développement et Territoires car il s'agit d'une opportunité pour contribuer au développement des communautés et valoriser mes acquis professionnels. Apporter une réponse aux questions de développement constitue pour moi une passion.",
+        "mail":"souvenirmegnigbeto@gmail.com"
+    },
+    { 
+        "id": 2,
+        "nomPrenom": "Chantelas J. AGOSSOUVO",
+        "statut": "Volontaire Gen-DT",
+        "photo": "images/avatar3.jpg",
+        "biographie": "Je suis un jeune homme passionné par l'informatique, la programmation et la recherche. Après avoir obtenu une licence en économie agricole à l'Université de Parakou, je poursuis actuellement mes études en master de statistique. Je suis également passionné par l'agriculture durable et le développement économique, et je cherche à utiliser mes compétences pour apporter une contribution positive à ces domaines. Je suis convaincu que l'informatique peut jouer un rôle essentiel pour résoudre les problèmes du monde.",
+        "mail":"monMail@site.com"
+    },
+    { 
+        "id": 3,
+        "nomPrenom": "Céline Esther M. DICKODET",
+        "statut": "Volontaire Gen-DT",
+        "photo": "images/avatar1.png",
+        "biographie":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dicta molestiae corporis nulla cum in dolorum vel quia neque repellat obcaecati possimus amet natus delectus id nam, est voluptas totam!",
+        "mail":"celinedick10@gmail.com"
+    }
+    
+]

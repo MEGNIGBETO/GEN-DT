@@ -1,0 +1,44 @@
+.logo-anim-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+
+.logo-part{
+    display: inline-block;
+    opacity: 0;
+}
+
+@keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes moveIn {
+    0% { transform: translateY(-100px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes colorChange {
+    0% { color: #333;}
+    100% { color: #007bff; }
+}
+
+#part1 {
+    animation: moveIn 1s ease forwards, fadeIn 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+#part2 {
+    animation: moveIn 1s ease forwards, fadeIn 1s ease forwards, colorChange 1s ease forwards;
+    animation-delay: 1s;
+}
+
+#part3 {
+    animation: moveIn 1s ease forwards, fadeIn 1s ease forwards;
+    animation-delay: 1.5s;
+}

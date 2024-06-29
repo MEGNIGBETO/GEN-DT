@@ -1,0 +1,57 @@
+.equipe{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.volontaire-content{
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  /*box-shadow: 0 0 10px #007bff4e;*/
+  text-align: center;
+}
+
+.volontaire-content img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.volontaire-content h2{
+  font-size: 15px;
+  margin-top: 15px;
+  color: #007bff;
+}
+
+.volontaire-content h3{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.volontaire-content p{
+  margin: 10px 0;
+  text-align: justify;
+}
+
+  /* Pour les écrans plus petits 
+  @media screen and (max-width: 900px) {
+    .volontaire {
+      flex-direction: column;
+    }
+  
+    .volontaire img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+  
+    .biographie {
+      padding: 10px;
+    }
+  }*/
