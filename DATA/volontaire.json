@@ -13,15 +13,22 @@
         "statut": "Volontaire Gen-DT",
         "photo": "images/avatar3.jpg",
         "biographie": "Je suis un jeune homme passionné par l'informatique, la programmation et la recherche. Après avoir obtenu une licence en économie agricole à l'Université de Parakou, je poursuis actuellement mes études en master de statistique. Je suis également passionné par l'agriculture durable et le développement économique, et je cherche à utiliser mes compétences pour apporter une contribution positive à ces domaines. Je suis convaincu que l'informatique peut jouer un rôle essentiel pour résoudre les problèmes du monde.",
-        "mail":"monMail@site.com"
+        "mail":"agoschantelas09@gmail.com"
     },
     { 
         "id": 3,
         "nomPrenom": "Céline Esther M. DICKODET",
         "statut": "Volontaire Gen-DT",
         "photo": "images/avatar1.png",
-        "biographie":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dicta molestiae corporis nulla cum in dolorum vel quia neque repellat obcaecati possimus amet natus delectus id nam, est voluptas totam!",
+        "biographie":"",
         "mail":"celinedick10@gmail.com"
+    },
+    {
+        "id":4,
+        "nomPrenom": "Roméo N. Faïdé ALLAGBE",
+        "statut": "Volontaire Gen-DT",
+        "photo": "images/avatar3.jpg",
+        "biographie": "",
+        "mail": "faydehu@gmail.com"
     }
-    
 ]

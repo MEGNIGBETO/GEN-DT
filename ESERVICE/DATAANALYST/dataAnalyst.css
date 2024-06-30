@@ -1,0 +1,33 @@
+.message-bienvenue{
+    text-align: center;
+}
+
+.message-bienvenue a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.dataAnalyst-section {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.dataAnalyst-section-title {
+    color: #007bff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dataAnalyst-section-content{
+    display: none;
+    padding-top: 10px;
+}
+
+.dossierDataAnalyst-content h2{
+    text-align: left;
+    font-size: 15px;
+}

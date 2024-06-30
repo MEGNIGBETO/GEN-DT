@@ -7,12 +7,12 @@ $(document).ready(function() {
             <img src="${volontaire.photo}" alt="Photo de volontaire">
             <h2>${volontaire.nomPrenom}</h2>
             <h3>${volontaire.statut}</h3>
-            <p class="biographie">${volontaire.biographie}</p>
             <p>
               <ul>
                 <li>${volontaire.mail}</li>
               </ul>
             </p>
+            <p class="biographie">${volontaire.biographie}</p>
           </div>
           `;
           $('.equipe').append(volontaireElement);

@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Plateforme numérique de l'ONG GEN-DT">
+    <meta name="description" content="Plateforme numérique de Gen-DT">
     <meta name="robots" content="index, follow">
-    <title>Plateforme ONG GEN-DT</title>
+    <title>Plateforme Gen-DT</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="STATIC/styleAnimLogo.css">
     <link rel="stylesheet" href="STATIC/volontaire.css">
+    <link rel="stylesheet" href="ESERVICE/DATAANALYST/dataAnalyst.css">
+    <link rel="stylesheet" href="MEMBRE/membre.css">
     <script type="text/javascript" src="STATIC/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script>
     <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
 </head>
 <body>
@@ -17,13 +21,15 @@
     <header>
         <nav class="navbar">
             <div class="logo-container">
-                <span class="logo">ONG GEN-DT</span>
+                <span class="logo">Gen-DT</span>
             </div>
             <div class="nav-links">
                 <ul>
                     <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#service">Nos services</a></li>
                     <!-- <li><a href="#projet">Nos projets</a></li>
                     <li><a href="#videotheque">Médiathèque</a></li> -->
+                    <li><a href="#membre">Espace membre</a></li>
                     <li><a href="#volontaire">Nos volontaires</a></li>
                     <li><a href="#apropos">A propos</a></li>
                 </ul>
@@ -53,12 +59,11 @@
         <!-- Espace Actualités -->
         <div class="actualites">
             <h3>Actualités</h3>
-            <ul>
-                <li>
-                    Projet de sensibilisation à l'intelligence artificielle <strong>AI-evangelism</strong>
-                </li>
-            </ul>
             <!-- Ajoutez plus d'actualités ici -->
+            <ul>
+                <li>Projet de sensibilisation à l'intelligence artificielle <strong>AI-evangelism</strong></li>
+                <li>Programme de mentorat <strong>Learning by doing</strong></li>
+            </ul>
         </div>
         
         <!-- Espace Informations -->
@@ -91,9 +96,29 @@
         </div>
     </section>
 
+    <!-- Section Nos services -->
+    <section id="service" hidden>
+        <div class="service">
+
+        </div>
+    </section>
+
+    <!-- Section Nos volontaires -->
     <section  id="volontaire" hidden>
         <div class="equipe">
 
+        </div>
+    </section>
+
+    <section id="membre" hidden>
+        <div>
+            <input type="text" id="search-bar" placeholder="Rechercher un membre par pseudo/identifiant">
+            <button id="search-button">Rechercher</button>
+            <button id="start-qr-scanner">Scanner un QR code</button>
+        </div>
+        <div id="qr-reader" style="width: 500px; display: none;"></div>
+        <div id="member-space">
+            <!-- Les membres seront affichés ici -->
         </div>
     </section>
 
@@ -107,7 +132,7 @@
     <!-- Pied de page -->
     <footer>
         <p>Contactez-nous : <a href="https://chat.whatsapp.com/...">Whatsapp</a></p>
-        <p>© 2023 Plateforme ONG GEN-DT. Tous droits réservés.</p>
+        <p>© 2023 Plateforme Gen-DT. Tous droits réservés.</p>
     </footer>
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="STATIC/video.js"></script>
@@ -115,5 +140,7 @@
     <script type="text/javascript" src="STATIC/quote.js"></script>
     <script type="text/javascript" src="STATIC/volontaire.js"></script>
     <script type="text/javascript" src="STATIC/apropos.js"></script>
+    <script type="text/javascript" src="MEMBRE/membre.js"></script>
+    <script type="text/javascript" src="ESERVICE/DATAANALYST/dataAnalyst.js"></script>
 </body>
 </html>
