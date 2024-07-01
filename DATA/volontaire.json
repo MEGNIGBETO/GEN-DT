@@ -20,7 +20,7 @@
         "nomPrenom": "Céline Esther M. DICKODET",
         "statut": "Volontaire Gen-DT",
         "photo": "images/avatar1.png",
-        "biographie":"",
+        "biographie":"Céline DICKODET, est titulaire d'une licence professionnelle en Sociologie-Anthropologie.Avant de rejoindre Gen-DT, elle a fait des stages académiques et professionnelles dans les ONG comme (ONG IFA ET CADID) à Porto-Novo. Elle est passionnée par la lecture,les thématiques la bonne santé et bien-être, l'éducation de qualité et l'égalité des sexes. Elle est expérimentée en collecte de donnée, l'analyse et l'interprétation des données qualitatives... Elle est également passionnée du numérique.",
         "mail":"celinedick10@gmail.com"
     },
     {
@@ -28,7 +28,23 @@
         "nomPrenom": "Roméo N. Faïdé ALLAGBE",
         "statut": "Volontaire Gen-DT",
         "photo": "images/avatar3.jpg",
-        "biographie": "",
+        "biographie": "Roméo N. Faïdé ALLAGBE possède  10 ans d'expérience dans le secteur éducatif béninois. Il est titulaire d'une licence professionnelle d'enseignement en mathématiques informatiques. Il est actuellement enseignant de mathématiques dans les lycées et collèges. Parallèlement, il suit un master recherche en statistique appliquée aux vivants. Volontaire Gen-DT, il a été membre de l'ONG Eben-Ezer Excellence Shalom (EbES), une ONG qui soutenait les familles, pour assurer une meilleure Éducation des Enfants. Faïdé ALLAGBE après son baccalauréat série C est diplômé de l'Ecole Normale Supérieure de Natitingou.",
         "mail": "faydehu@gmail.com"
+    },
+    {
+        "id":5,
+        "nomPrenom": "N. Ninon M. ALLAGBE",
+        "statut": "Volontaire Gen-DT",
+        "photo": "images/avatar3.jpg",
+        "biographie": "N'soyénou Ninon Manonfi ALLAGBE a 9 ans d'expérience en enseignement des sciences mathématiques . Avant de rejoindre Gen-DT, il a travaillé avec les établissements privé de Cotonou et d'Abomey calavi . Il a une parfaite maîtrise des techniques de communication et celle d'analyse de données à l'aide du logiciel R. Participer aux activités de Gen-DT est une opportunité pour faire de nouvelle aventure et faire davantage ses preuves.",
+        "mail": "allagbe62@gmail.com"
+    },
+    {
+        "id":6,
+        "nomPrenom": "Ghislain S.",
+        "statut": "Volontaire Gen-DT",
+        "photo": "images/avatar3.jpg",
+        "biographie": "",
+        "mail": ""
     }
 ]
