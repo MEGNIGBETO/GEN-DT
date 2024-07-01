@@ -1,0 +1,23 @@
+[
+
+    {
+        "id": "johndoe",
+        "avatar": "path/to/avatar1.jpg",
+        "name": "John Doe",
+        "contact": "john.doe@example.com",
+        "degree": "Master en Développement Territorial",
+        "skills": ["Gestion de projet", "Analyse de données", "Communication"],
+        "experiences": ["Projet A", "Projet B", "Projet C"],
+        "achievements": ["Réussite A", "Réussite B"]
+    },
+    {
+        "id": "janesmith",
+        "avatar": "path/to/avatar2.jpg",
+        "name": "Jane Smith",
+        "contact": "jane.smith@example.com",
+        "degree": "Doctorat en Sciences Environnementales",
+        "skills": ["Recherche", "Rédaction scientifique", "Conférences"],
+        "experiences": ["Projet D", "Projet E"],
+        "achievements": ["Publication X", "Récompense Y"]
+    }
+]

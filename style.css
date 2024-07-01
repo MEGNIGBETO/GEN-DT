@@ -40,6 +40,11 @@ header {
   color: #fff;
 }
 
+.logo img{
+  width: 150px;
+  filter: brightness(0) invert(1); 
+}
+
 .navbar .nav-links ul {
   display: flex;
 }

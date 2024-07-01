@@ -4,9 +4,7 @@ $(document).ready(function() {
         var dataAnalystElement = `
         <!-- Animation accueil -->
         <div class="logo-anim-container">
-            <span class="logo-part" id="part1">Gen</span>
-            <span class="logo-part" id="part2">-</span>
-            <span class="logo-part" id="part3">DT</span>
+            <span><img src="images/logo4b.png" alt=""></span>
         </div>
         <div class="message-bienvenue">
             <p>
