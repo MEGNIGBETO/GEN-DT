@@ -15,7 +15,7 @@
     /*object-fit: cover;*/
 }
 
-/*.logo-part{
+.logo-part{
     display: inline-block;
     opacity: 0;
 }
@@ -48,4 +48,4 @@
 #part3 {
     animation: moveIn 1s ease forwards, fadeIn 1s ease forwards;
     animation-delay: 1.5s;
-}*/
+}
