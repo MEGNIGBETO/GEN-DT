@@ -8,8 +8,7 @@ $(document).ready(function() {
         </div>
         <div class="message-bienvenue">
             <p>
-                Bienvenue sur notre plateforme de soutien à l'analyse de données statistique! <br>
-                <a href="https://chat.whatsapp.com/F7weTSwRmEzLQQgAELIHOn">Contactez nous!</a>
+                Bienvenue sur notre plateforme de soutien à l'analyse de données statistique!
             </p>
         </div>
         <div class="dataAnalyst-section">
