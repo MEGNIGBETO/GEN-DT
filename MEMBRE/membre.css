@@ -1,32 +1,56 @@
+#member-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#recherche{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #search-bar {
-    width: 300px;
+    width: 30%;
     padding: 8px;
     margin-bottom: 16px;
+    border: 1px solid #b2b2b2;
 }
 
 #search-button {
     padding: 8px 16px;
+    margin-bottom: 16px;
     margin-left: 8px;
+    border: 1px solid #b2b2b2;
 }
 
-#member-space {
+#search-button:hover {
+	background-color: #004a90;
+}
+
+/*#member-space {
     display: flex;
     flex-wrap: wrap;
-}
+}*/
 
 .member-card {
     border: 1px solid #ccc;
     padding: 16px;
     margin: 16px;
-    width: 300px;
+    width: 75%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: none; /* Masquer les cartes par défaut */
 }
 
-.member-card img {
-    max-width: 100%;
+.member-card .avatar {
+    max-width: 25%;
     height: auto;
-    border-radius: 50%;
+}
+
+.member-card .qrCodeImg {
+    margin-top: 10px;
+    max-width: 50%;
+    height: auto;
 }
 
 .member-info {

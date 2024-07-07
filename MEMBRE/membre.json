@@ -2,7 +2,7 @@
 
     {
         "id": "johndoe",
-        "avatar": "path/to/avatar1.jpg",
+        "avatar": "images/avatar3.jpg",
         "name": "John Doe",
         "contact": "john.doe@example.com",
         "degree": "Master en Développement Territorial",
@@ -12,7 +12,7 @@
     },
     {
         "id": "janesmith",
-        "avatar": "path/to/avatar2.jpg",
+        "avatar": "images/avatar1.png",
         "name": "Jane Smith",
         "contact": "jane.smith@example.com",
         "degree": "Doctorat en Sciences Environnementales",

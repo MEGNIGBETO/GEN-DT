@@ -3,7 +3,7 @@ $(document).ready(function() {
         $.each(data, function(index, member) {
             $('#member-space').append(`
                 <div class="member-card" id="${member.id}">
-                    <img src="${member.avatar}" alt="Avatar de ${member.name}">
+                    <img class="avatar" src="${member.avatar}" alt="Avatar de ${member.name}">
                     <div class="member-info">
                         <h3>${member.name}</h3>
                         <p><strong>E-mail:</strong> ${member.contact}</p>
@@ -12,7 +12,7 @@ $(document).ready(function() {
                         <p><strong>Expériences/Projets avec l'organisation:</strong> ${member.experiences.join(', ')}</p>
                         <p><strong>Réalisations:</strong> ${member.achievements.join(', ')}</p>
                     </div>
-                    <div id="qrcode-${member.id}"></div>
+                    <div class=qrCodeImg id="qrcode-${member.id}"></div>
                 </div>
             `);
 
@@ -36,35 +36,35 @@ $(document).ready(function() {
         });
     });
 
-    // Check URL hash for direct access
-    const urlHash = window.location.hash.substring(1);
-    if (urlHash) {
-        $(`#${urlHash}`).show();
-    }
+});
 
-    // QR Code scanner
-    $('#start-qr-scanner').click(function() {
-        $('#qr-reader').show();
-        const html5QrCode = new Html5Qrcode("qr-reader");
 
-        html5QrCode.start(
-            { facingMode: "environment" }, // Use rear camera
-            {
-                fps: 10, // Frame per second for qr code scanning
-                qrbox: { width: 250, height: 250 } // Define scanning box size
-            },
-            (decodedText, decodedResult) => {
-                // Handle decoded text
-                html5QrCode.stop();
-                window.location.href = decodedText;
-            },
-            (errorMessage) => {
-                // Handle error
-                console.warn(`QR Code no match: ${errorMessage}`);
+
+window.addEventListener('DOMContentLoaded', function(){
+    document.getElementById("start-qr-scanner").onclick = function() { 
+        function domReady(fn) {
+            if (
+                document.readyState === "complete" ||
+                document.readyState === "interactive"
+            ) {
+                setTimeout(fn, 1000);
+            } else {
+                document.addEventListener("DOMContentLoaded", fn);
             }
-        ).catch((err) => {
-            // Start failed
-            console.error(`Unable to start scanning, error: ${err}`);
+        }
+    
+        // If found you qr code
+        function onScanSuccess(decodeText, decodeResult) {
+            alert("You Qr is : " + decodeText, decodeResult);
+        }
+    
+        domReady(function () {
+    
+            let htmlscanner = new Html5QrcodeScanner(
+                "my-qr-reader",
+                { fps: 10, qrbos: 250 }
+            );
+            htmlscanner.render(onScanSuccess);
         });
-    });
+    };  
 });

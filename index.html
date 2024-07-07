@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="STATIC/espaceCollab.css">
     <link rel="stylesheet" href="ESERVICE/DATAANALYST/dataAnalyst.css">
     <link rel="stylesheet" href="MEMBRE/membre.css">
+    <link rel="stylesheet" href="MEMBRE/QRCODE/qrstyle.css">
     <script type="text/javascript" src="STATIC/jquery-3.6.0.min.js"></script>
     <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
 </head>
@@ -121,14 +122,19 @@
 
     <!-- Section Espace membre -->
     <section id="membre" hidden>
-        <div>
+        <div id="recherche">
             <input type="text" id="search-bar" placeholder="Rechercher un membre par pseudo">
-            <button id="search-button">Rechercher</button>
-            <button id="start-qr-scanner">Scanner un QR code</button>
+            <button id="search-button">Rechercher</button>    
         </div>
-        <div id="qr-reader" style="width: 500px; display: none;"></div>
         <div id="member-space">
             <!-- Les membres seront affichés ici -->
+        </div>
+        <div class="qr-container">
+            <div class="qr-section">
+                <button id="start-qr-scanner">Scanner un QR code</button>
+                <div id="my-qr-reader">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -145,7 +151,7 @@
         <p>© 2023 Plateforme Gen-DT. Tous droits réservés.</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-    <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script>
+    <script src="https://unpkg.com/html5-qrcode"></script>
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="STATIC/video.js"></script>
     <script type="text/javascript" src="STATIC/projet.js"></script>
@@ -154,6 +160,8 @@
     <script type="text/javascript" src="STATIC/apropos.js"></script>
     <script type="text/javascript" src="STATIC/espaceCollab.js"></script>
     <script type="text/javascript" src="MEMBRE/membre.js"></script>
+    <!--
+    <script type="text/javascript" src="MEMBRE/QRCODE/qrscript.js"></script>-->
     <script type="text/javascript" src="ESERVICE/DATAANALYST/dataAnalyst.js"></script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">

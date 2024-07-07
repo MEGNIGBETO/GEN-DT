@@ -1,0 +1,61 @@
+/* qrstyle.css file*/
+.qr-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	max-width: 500px;
+	margin: 5px;
+}
+
+.qr-section{
+	background-color: #ffffff;
+	padding: 50px 30px;
+	border: 1.5px solid #b2b2b2;
+	border-radius: 0.25em;
+	box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+
+#my-qr-reader {
+	padding: 20px !important;
+	border: 1.5px solid #b2b2b2 !important;
+	border-radius: 8px;
+}
+
+#my-qr-reader img[alt="Info icon"] {
+	display: none;
+}
+
+#my-qr-reader img[alt="Camera based scan"] {
+	width: 100px !important;
+	height: 100px !important;
+}
+
+.qr-container button  {
+	padding: 10px 20px;
+	border: 1px solid #b2b2b2;
+	outline: none;
+	border-radius: 0.25em;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background-color: #007bff;
+	transition: 0.3s background-color;
+}
+
+.qr-container button:hover {
+	background-color: #004a90;
+}
+
+#html5-qrcode-anchor-scan-type-change {
+	text-decoration: none !important;
+	color: #007bff;
+}
+
+video {
+	width: 100% !important;
+	border: 1px solid #b2b2b2 !important;
+	border-radius: 0.25em;
+}
