@@ -35,7 +35,6 @@ $(document).ready(function() {
             });
         });
     });
-
 });
 
 
@@ -55,8 +54,27 @@ window.addEventListener('DOMContentLoaded', function(){
     
         // If found you qr code
         function onScanSuccess(decodeText, decodeResult) {
-            alert("You Qr is : " + decodeText, decodeResult);
+            //alert("You Qr is : " + decodeText, decodeResult);
+            localStorage.setItem('qrCodeContent', decodeText.split("#")[1]);
+            const query = localStorage.getItem('qrCodeContent');
+            //console.log(query)
+            $('.member-card').hide();
+            $.getJSON('MEMBRE/membre.json', function(data) {
+                $.each(data, function(index, member) {
+                    if (member.id.toLowerCase() === query) {
+                        $(`#${member.id}`).show();
+                    }
+                });
+            });
+            localStorage.removeItem('qrCodeContent');
+            if (
+                $("#html5-qrcode-button-camera-stop").length 
+                && 
+                !$('#qr-reader').is(':visible')
+            ) 
+            $("#html5-qrcode-button-camera-stop").trigger("click");
         }
+
     
         domReady(function () {
     
