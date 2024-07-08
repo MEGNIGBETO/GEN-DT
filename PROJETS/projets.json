@@ -1,0 +1,41 @@
+[
+    {
+      "title": "Projet X",
+      "subtitle": "Développement durable",
+      "description": "Une brève présentation du projet X.",
+      "objectives": ["Objectif 1", "Objectif 2", "Objectif 3"],
+      "team": [
+        {
+          "name": "John Doe",
+          "role": "Chef de projet",
+          "bio": "10 ans d'expérience dans le développement durable.",
+          "photo": "images/avatar3.jpg"
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Analyste",
+          "bio": "Spécialiste en analyse de données.",
+          "photo": "images/avatar1.png"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2024-01-01",
+          "event": "Lancement du projet"
+        },
+        {
+          "date": "2024-06-01",
+          "event": "Évaluation intermédiaire"
+        }
+      ],
+      "gallery": ["image1.jpg", "image2.jpg"],
+      "documents": [
+        {
+          "title": "Rapport initial",
+          "url": "rapport_initial.pdf"
+        }
+      ],
+      "impact": "Impact prévu sur la communauté."
+    }
+  ]
+  
