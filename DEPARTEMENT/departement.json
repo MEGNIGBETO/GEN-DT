@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Loisir",
+        "couverture":"images/departement/couvertureLoisir.jpg",
+        "description": "",
+        "plateforme": "https://gendtloisir.pythonanywhere.com/"
+    }
+]
