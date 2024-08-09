@@ -2,7 +2,7 @@ $(document).ready(function() {
     $.getJSON('DEPARTEMENT/departement.json', function(data) {
         $.each(data, function(index, departement) {
             $('#departement').append(`
-                <div class="departement" id="${departement.id}">
+                <div class="departement-presentation" id="${departement.id}">
                     <div class="departement-couverture">
                         <img  src="${departement.couverture}" alt="photo de couverture de ${departement.name}">
                     </div>
