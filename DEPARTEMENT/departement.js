@@ -8,7 +8,7 @@ $(document).ready(function() {
                     </div>
                     <div class="departement-info">
                         <h3>${departement.name}</h3>
-                        <p>Visitez notre plateforme dédiée <a href="${departement.plateforme}">ici</a></p>
+                        <p>Visitez notre plateforme dédiée <a href="${departement.plateforme}" target="_blank">ici</a></p>
                     </div>
                 </div>
             `);
